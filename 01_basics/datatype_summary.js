@@ -33,10 +33,44 @@ const myFunction = function(){
 }
 
 
-console.log(typeof bigNumber);      //bigint
-console.log(typeof outsideTemp);    //object
-console.log(typeof scoreValue);     //number
-console.log(typeof myObj);          //object
-console.log(typeof myFunction);     //function(object function)
-console.log(typeof heros);          //object
-console.log(typeof anotherId);      //symbol
+//console.log(typeof bigNumber);      //bigint
+//console.log(typeof outsideTemp);    //object
+//console.log(typeof scoreValue);     //number
+//console.log(typeof myObj);          //object
+//console.log(typeof myFunction);     //function(object function)
+//console.log(typeof heros);          //object
+//console.log(typeof anotherId);      //symbol
+
+
+
+/*****************************************************************************************************/
+
+
+// Stack(premitive), Heap(Non-premitive)
+
+
+let myYoutubename = "SanjeevSwe"
+
+let anotherName = myYoutubename
+anotherName = "Kumar"
+//console.log(myYoutubename);
+//console.log(anotherName);
+
+let userOne = {
+    email: "google.com",
+    upi: "user@paytm"
+}
+
+
+let userTwo = userOne
+
+userTwo.email = "sanjeev@gmail.com"
+
+console.log(userOne.email);
+console.log(userTwo.email);
+
+
+
+
+
+
